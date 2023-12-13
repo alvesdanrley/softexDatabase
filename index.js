@@ -49,4 +49,4 @@ async function adicionarFuncionario() {
   }
 
   // Carregar funcionarios quando a página carregar
-  window.onload = carregarFuncionarios;
+  window.onload = carregarFuncionarios();
